@@ -1,99 +1,15 @@
-\chapter{Título do Capítulo 2}
+\chapter{Enquadramento}
 \label{cap2}
 
 Este capítulo exemplifica a utilização de referências, figuras, tabelas e listagens.
 
-\section{Titulo de uma seção}
-\subsection{Título de uma subseção}
-\subsubsection{Título de parágrafo de texto normal}
-
-
-A Figura \ref{fig:exemplofig} apresenta os vários tipos de diagrama da Unified Modeling Language (UML).
+\section{Projeto}
+\section{Objetivo}
+\section{Planeamento}
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=14cm]{exemploFig}
-\caption{Exemplo de Figura (\textit{in} \url{http://en.wikipedia.org/wiki/Class_diagram})}
-\label{fig:exemplofig}
+\includegraphics[width=9cm]{planeamento}
+\caption{Planeamento}
+\label{fig:planeamentoFig}
 \end{figure}
-
-Exemplos de citações \cite{AndroidTools},
-\cite{Huetal2000,book:Brooks1995,Chen1976}
-
-%Exemplo de listagem de código Java.
-%\lstlisting{
-
-\section{Exemplos de Listagens}
-
-A Listagem \ref{lst:py} apresenta um exemplo de implementação do algoritmo de ordenação \textit{quicksort} na linguagem de programação Python.
-
-\begin{lstlisting}[language=python,caption={Exemplo de listagem de código Python.},{label=lst:py}]
-# in http://www.ics.uci.edu/~eppstein/161/python/quicksort-inplace.py - 2013/04/14
-# quick sort, in-place 3-way partition
-# David Eppstein, UCI, 17 Jan 2002
-
-import random
-R = random.Random(42)
-
-def qsort(L):
-	quicksort(L,0,len(L))
-
-def quicksort(L,start,stop):
-	if stop - start < 2: return
-	key = L[R.randrange(start,stop)]
-	e = u = start
-	g = stop
-	while u < g:
-		if L[u] < key:
-			swap(L,u,e)
-			e = e + 1
-			u = u + 1
-		elif L[u] == key:
-			u = u + 1
-		else:
-			g = g - 1
-			swap(L,u,g)
-	quicksort(L,start,e)
-	quicksort(L,g,stop)
-
-def swap(A,i,j):
-	temp = A[i]
-	A[i] = A[j]
-	A[j] = temp
-
-L = [3,1,4,1,5,9,2,6,5,3,5,8,9,7,9]
-qsort(L)
-print L
-\end{lstlisting}
-
-
-A Listagem \ref{lst:java} apresenta um exemplo de implementação do algoritmo de ordenação \textit{quicksort} na linguagem de programação \Java{}.
-
-\lstinputlisting[language=java,caption={Exemplo de listagem de código Java.},{label=lst:java}]{listagens/quicksort.java}
-
-\lstinputlisting[language=java,caption={Exemplo de listagem de parte de um ficheiro Java.},{label=lst:javaparcial},firstline=38,lastline=44]{listagens/quicksort.java}
-
-
-\pagebreak % para forçar uma mudança de página
-%%%%%%%%%%%%%%%%%%%%
-\section{Um exemplo de tabela}
-
-A Tabela \ref{tab:caso} apresenta os resultados de aplicação de quatro métodos a um caso.
-
-%baseado num exemplo em http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf
-\begin{table}[htb]
-\caption{Uma tabela de exemplo} % título da tabela
-\centering % para central a tabela
-\begin{tabular}{l l c r} % duas colunas à esquerda (l l), uma ao centro (c) e uma à direita (r) (4 colunas)
-\hline\hline %insere duas linhas horizontais
-Caso & Método 1 & Método 2 & Método 3 \\ [0.5ex] % insere tabela 
-\hline % insere uma linha horizontal
-1 & 50 & 837 & 970 \\ % insure corpo da tabela
-2 & 47 & 877 & 230 \\
-3 & 31 & 25 & 415 \\
-4 & 35 & 144 & 2356 \\
-5 & 45 & 300 & 556 \\ [1ex] % [1ex] adiciona espaço vertical
-\hline %insere uma linha horizontal
-\end{tabular}
-\label{tab:caso} % é utilizado para referir a tabela no texto
-\end{table}
