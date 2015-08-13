@@ -79,6 +79,11 @@ pagebackref, % Adds ‘backlink’ text to the end of each item
 
 \DeclareRobustCommand{\folharosto}{
 	\thispagestyle{empty}
+	\begin{center}
+	\vspace*{\fill}
+	\center{Página de rosto.}
+	\vspace*{\fill}
+	\end{center}
 	\newpage
 	\thispagestyle{empty}
 	\begin{center}
