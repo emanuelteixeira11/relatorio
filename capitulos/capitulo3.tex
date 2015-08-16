@@ -2,8 +2,66 @@
 \label{cap3}
 
 \section{Âmbito Funcional}
+\par A Brisa é detentora de um Data Mart com as informações relativas à receita e ao tráfego, onde outras ferramentas de reporting estão assentes, entre elas o QlikView. Desta forma, a fonte de dados para a informação de gestão que será disponibilizada no âmbito desta iniciativa será obtida exclusivamente deste Data Mart. 
+\par A informação de gestão que será disponibilizada no âmbito desta iniciativa tem como intuito permitir aos responsáveis/utilizadores da Brisa percepcionarem a evolução da receita de tráfego e violações da Brisa, em concreto, permitir de uma forma visual e intuitiva percepcionar as diferenças entre receita teórica e a receita final e violações. Os utilizadores deverão poder percepcionar as diferentes rubricas operacionais que condicionam a receita teórica até a receita final, a título de exemplo: Anulações, Descontos, Isenções e outros.
+Os indicadores a disponibilizar são os seguintes, segregados por tipologia:
+\begin{itemize}  
+	\item Receita Teórica: valor expectável que deveria ser obtido decorrente de transacções obtidas nas diferentes concessões da Brisa. Este valor deverá ser expurgado de violações, isenções e transacções de manutenção.
+	\begin{itemize}
+	\item Por Barreira: receita teórica para transacções com percursos não válidos. Transacções cujo local de início é desconhecido ou não válido dentro da rede rodoviária.
+	\item Por Sublanço: receita teórica para transacções com percursos válidos.  
+	\end{itemize}
+	\item Ajustamentos: soma de todos os indicadores de ajustamentos que passaremos a enumerar:
+	\begin{itemize}
+	\item Anulações: receita efectiva decorrente de transacções que foram anuladas por diferentes motivos;
+	\item Descontos: receita efectiva decorrente de transacções onde foram aplicados descontos;
+	\item Isenções: receita efectiva decorrente de transacções que não geram receita, a título de exemplo, transacções de veículos de emergência médica, veículos das forças armadas portuguesas, outros. 
+	\item Alterações para Violações: receita efectiva decorrente de transacções que foram reclassificadas como violações.
+	\item	Alterações de Classe: receita efectiva decorrente de transacções que sofreram alterações de classe dos veículos;
+	\item Alterações de Percurso: receita efectiva decorrente de transacções que sofreram alterações de percurso;
+	\item Acertos Barreira/Sublanço: receita efectiva decorrente de acertos de barreira e de sublanço. Convém salientar que consideramos que este indicador será calculado considerando os tipos de movimento não incluídos nos indicadores de ajustamento definidos anteriormente.
+	\end{itemize}
+	\item Violações: soma dos indicadores de violações que passaremos a enumerar:
+	\begin{itemize}
+	\item Violações Iniciais Sem Percurso Válido: receita de transacções decorrentes de violações iniciais sem percurso válido;
+	\item Violações Iniciais Com Percurso Válido: receita de transacções decorrentes de violações iniciais com percurso válido;
+	\item Violações Alterações Sem Percurso Válido: receita de transacções que sofreram alterações relativas a violações sem percurso válido;
+	\item Violações Alterações Sem Percurso Válido: receita de transacções que sofreram alterações relativas a violações com percurso válido.
+	\item Receita Final: soma dos indicadores receita teórica e ajustamentos.
+	\end{itemize}
+\end{itemize}
+   
+\par A par disto, pretendia-se ainda a reformulação de alguns relatórios de QlikView,  bem como o desenvolvimentos de outros não existentes, de modo a complementar a informação nesta ferramenta de reporting.
 
 \section{Âmbito Tecnologico}
+\par Após uma breve introdução, apresentam-se as tecnologias utilizadas e o percurso de aprendizagem do autor para utilização das mesmas.
+
 \subsection{Introdução}
 \par Inicialmente foi disponibilizado todo o projecto da aplicação WEB, bem como alguns exemplos de utilização de AngularJS e da biblioteca javascript D3.js. Foi ainda disponibilizado o \textit{Data Mart} que continha toda a informação necessária para a implementação do projeto. 
 \par Na fase inicial foi crucial o enquadramento com as varias tecnologias e frameworks, partindo de alguns exemplos disponibilizados, possibilitando assim uma aprendizagem autônoma. Posto isto, e após algum estudo do código disponibilizado,  ficaram criadas as condições para a primeira abordagem às tecnologias que iriam ser necessárias dominar, iniciando pela implementação de algumas funcionalidades mais básicas. 
+
+\subsection{Tecnologias utilizadas}
+\begin{description}
+  \item[JavaEE] O Java Entreprise Edition é a plataforma de desenvolvimento orientada Web recorrendo à linguagem de programação Java. O JavaEE estende do tradicional JavaSE, e disponibiliza várias API’s direccionadas para o desenvolvimento no lado do servidor.
+  \item[WebServices] É uma solução utilizada para realizar a comunicação entre diferentes aplicações. Através desta tecnologia é possível que novas aplicações comuniquem com as existentes, e garantido que sistemas desenvolvidos em plataformas diferentes sejam compatíveis. 
+\par Cada aplicação pode ter a sua própria linguagem, que é traduzida numa linguagem universal, em formato XML,  Json ou CSV.
+  \item[Rest] Permite a troca de informação entre aplicações , através do protocolo HTTP, recorrendo a solicitações GET, POST, DELETE e PUT.
+  \item[Spring MVC Framework] O Spring MVC é uma framework open source que visa ajudar no desenvolvimento de aplicações com o JavaEE assente no modelo MVC (Model-View-Controller).
+  \item[Sql Server] É um Sistema de Gestão de Base de Dados, vocacionado para base de dados relacionais, desenvolvido pela Microsoft. Actualmente é uma das opções no mercado mais robustas no que toca aos SGBD.
+  \item[JSON] O JavaScript Object Notation é uma linguagem leve para a troca de dados entre aplicações. Devido à sua simplicidade tem vindo a ser cada vez mais utilizado em detrimento do XML, em pedidos AJAX. 
+\par Apesar de ser uma linguagem derivada do javascript, já muitas outras linguagens suportam o JSON.
+  \item[AngularJS] É uma framework javascript para desenvolvimento de aplicações WEB, assente no modelo de MVC. O AngularJS permite o desenvolvimento de aplicações extremamente dinâmicas através da ponte entre o HTML e o javascript. 
+  \item[Hibernate ORM] É uma framework Java open source utilizada para facilitar o mapeamento entre atributos de uma base de dados relacional e o modelo de objecto da aplicação Java, através de ficheiros XML ou por uma sintaxe de anotações presente no próprio modelo.
+  \item[D3.js] O D3.js é uma biblioteca javascript utilizada para manipular documentos baseados em dados. Esta biblioteca utiliza HTML, SVG e CSS para transformar a fonte de dados em poderosas visualizações, como por exemplo em gráficos.
+  \item[QlikView] O QlikView é uma ferramenta de Business Intelligence detentora de uma tecnologia patenteada de associação em memória. O QlikView permite a absorção de dados de várias fontes, entre as quais Excel, XML, SQL Server, Oracle, SAP ou Data Warehouse, podendo ser combinadas as mais variadas fontes de informação, permitindo a consulta e análise dessa informação estruturada em dashboards. O QlikView permite elaborar análises bastantes detalhadas, explorando as relações entre os dados de forma dinâmica.
+\end{description}
+
+\dirtree{%
+.1 debug.
+.2 filename.
+.2 modules.
+.3 module.
+.3 module.
+.3 module.
+.2 level.
+}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.7)  13 AUG 2015 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.7)  16 AUG 2015 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,6 +599,31 @@ File: babel.def 2014/03/24 3.9k Babel common definitions
 )
 Package babel Info: Making " an active character on input line 145.
 ))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/dirtree/dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/dirtree/dirtree.tex
+`dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen156
+\DT@width=\dimen157
+\DT@sep=\dimen158
+\DT@all=\dimen159
+\DT@rulewidth=\dimen160
+\DT@dotwidth=\dimen161
+\DTbaselineskip=\dimen162
+\DT@counti=\count142
+\DT@countii=\count143
+\DT@countiii=\count144
+\DT@countiv=\count145
+\DT@indent=\dimen163
+\DT@parskip=\dimen164
+\DT@baselineskip=\dimen165
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -622,10 +647,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count142
+\Gread@gobject=\count146
 ))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -689,16 +714,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen158
-\Hy@linkcounter=\count143
-\Hy@pagecounter=\count144
+\@linkdim=\dimen168
+\Hy@linkcounter=\count147
+\Hy@pagecounter=\count148
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count145
+\Hy@SavedSpaceFactor=\count149
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -726,17 +751,17 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count146
+\c@Hy@tempcnt=\count150
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen159
-\Fld@menulength=\count147
-\Field@Width=\dimen160
-\Fld@charsize=\dimen161
+\XeTeXLinkMargin=\dimen169
+\Fld@menulength=\count151
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -746,47 +771,47 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count148
-\c@Item=\count149
-\c@Hfootnote=\count150
+\Hy@abspage=\count152
+\c@Item=\count153
+\c@Hfootnote=\count154
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count151
-\c@Hpagenote=\count152
+\c@memhycontfloat=\count155
+\c@Hpagenote=\count156
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count153
-\c@bookmark@seq@number=\count154
+\Fld@listcount=\count157
+\c@bookmark@seq@number=\count158
 \Hy@SectionHShift=\skip185
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count155
+\c@lips@count=\count159
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count156
+\lst@mode=\count160
 \lst@gtempboxa=\box29
 \lst@token=\toks27
-\lst@length=\count157
-\lst@currlwidth=\dimen162
-\lst@column=\count158
-\lst@pos=\count159
-\lst@lostspace=\dimen163
-\lst@width=\dimen164
-\lst@newlines=\count160
-\lst@lineno=\count161
-\lst@maxwidth=\dimen165
+\lst@length=\count161
+\lst@currlwidth=\dimen172
+\lst@column=\count162
+\lst@pos=\count163
+\lst@lostspace=\dimen173
+\lst@width=\dimen174
+\lst@newlines=\count164
+\lst@lineno=\count165
+\lst@maxwidth=\dimen175
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count162
-\lst@skipnumbers=\count163
+\c@lstnumber=\count166
+\lst@skipnumbers=\count167
 \lst@framebox=\box30
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
@@ -797,7 +822,11 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-(./info-para-preencher.tex) (./minutaDoRelatorio.aux)
+(./info-para-preencher.tex) (./minutaDoRelatorio.aux
+
+LaTeX Warning: Label `example:angular' multiply defined.
+
+)
 \openout1 = `minutaDoRelatorio.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -851,16 +880,16 @@ LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
-\scratchdimen=\dimen166
+\scratchcounter=\count168
+\scratchdimen=\dimen176
 \scratchbox=\box31
-\nofMPsegments=\count165
-\nofMParguments=\count166
+\nofMPsegments=\count169
+\nofMParguments=\count170
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count167
-\MPscratchDim=\dimen167
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen177
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
 \everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -886,7 +915,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count174
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -898,9 +927,9 @@ LaTeX Info: Redefining \nameref on input line 10.
 \@outlinefile=\write4
 \openout4 = `minutaDoRelatorio.out'.
 
-\c@lstlisting=\count171
+\c@lstlisting=\count175
 
-<logos/logo-ipbeja.pdf, id=91, 646.415pt x 499.8675pt>
+<logos/logo-ipbeja.pdf, id=111, 646.415pt x 499.8675pt>
 File: logos/logo-ipbeja.pdf Graphic file (type pdf)
 
 <use logos/logo-ipbeja.pdf>
@@ -916,7 +945,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logos/logo-estig.pdf, id=92, 845.0471pt x 597.50829pt>
+<logos/logo-estig.pdf, id=112, 845.0471pt x 597.50829pt>
 File: logos/logo-estig.pdf Graphic file (type pdf)
 
 <use logos/logo-estig.pdf>
@@ -951,26 +980,29 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Overfull \hbox (3.11116pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/12 da uni-dade cur-ri-cu-lar de Est^^Sagio e Pro-jeto da Li-cen-ci
+-a-tura de En-ge-nha-ria In-form^^Satica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-) (./parte-inicial/abstract.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
- [1
+(babel)             in language  on input line 8.
+[1
 
 
-]
+]) (./parte-inicial/abstract.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [2
-
-]
+ [2]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 ) (./parte-inicial/agradecimentos.tex
@@ -979,7 +1011,9 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
-[3]
+[3
+
+]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -1015,9 +1049,9 @@ Overfull \hbox (0.16266pt too wide) detected at line 8
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 24.
 [7])
 
 Class memoir Warning: The material used in the headers is too large
@@ -1093,25 +1127,23 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 11.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 
-      [1
+l.11 \item A
+            provação Prévia: obtenção prévia da aprovação do conteú...
+[1
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 14.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 23.
 ) (./capitulos/capitulo2.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1128,29 +1160,29 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 7.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
-
-<figuras/planeamento.png, id=240, 462.72874pt x 343.2825pt>
-File: figuras/planeamento.png Graphic file (type png)
-
-<use figuras/planeamento.png>
-Package pdftex.def Info: figuras/planeamento.png used on input line 12.
-(pdftex.def)             Requested size: 256.0748pt x 189.97403pt.
-) (./capitulos/capitulo3.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 11.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Âmbito} [3
+l.11 \section
+             {Planeamento} [3
 
- <./figuras/planeamento.png>]
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 11.
+
+<figuras/planeamento.png, id=271, 462.72874pt x 343.2825pt>
+File: figuras/planeamento.png Graphic file (type png)
+
+<use figuras/planeamento.png>
+Package pdftex.def Info: figuras/planeamento.png used on input line 15.
+(pdftex.def)             Requested size: 256.0748pt x 189.97403pt.
+) (./capitulos/capitulo3.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -1160,75 +1192,162 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Âmbito} [4
-
-]
+            {Âmbito} [4 <./figuras/planeamento.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 17.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 7.
-)
-No file minutaDoRelatorio.bbl.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
-[5]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
- [6
+(babel)             in language  on input line 17.
+ [5
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 36.
+
+Overfull \vbox (1.21669pt too high) has occurred while \output is active []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
- [7]
+(babel)             in language  on input line 39.
+
+[6]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
- [8] (./apendices/apendice1.tex
+(babel)             in language  on input line 43.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 51.
+
+[7]
+Overfull \hbox (14.88898pt too wide) in paragraph at lines 53--54
+\OT1/cmr/m/n/12 as-sente no mo-delo de MVC. O An-gu-larJS per-mite o de-sen-vol
+-vi-mento de aplica^^Xc~oes
+ []
+
+) (./capitulos/capitulo4.tex
+Overfull \vbox (1.21669pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+[8]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 8.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+ [9
+
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 62.
+ [10]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 87.
+)
+No file minutaDoRelatorio.bbl.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+[11]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [12
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [13]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [14] (./apendices/apendice1.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
- [9
+(babel)             in language  on input line 49.
+ [15
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 
-[10]
+[16]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
- [11
+(babel)             in language  on input line 53.
+ [17
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
- [12] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same iden
+(babel)             in language  on input line 53.
+ [18] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same iden
 tifier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1240,23 +1359,23 @@ Package babel Info: Redefining portuges shorthand "|
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
- [13
+(babel)             in language  on input line 54.
+ [19
 
 ]
 
 Class memoir Warning: The material used in the headers is too large
 (15.71669pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 57.
+(in both cases you will find help in the memoir manual). on input line 58.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 57.
-[14]
+(babel)             in language  on input line 58.
+[20]
 \tf@toc=\write5
 \openout5 = `minutaDoRelatorio.toc'.
 
@@ -1269,43 +1388,42 @@ Package babel Info: Redefining portuges shorthand "|
 \tf@lol=\write8
 \openout8 = `minutaDoRelatorio.lol'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (./minutaDoRelatorio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package rerunfilecheck Info: File `minutaDoRelatorio.out' has not changed.
+(rerunfilecheck)             Checksum: 471AE7434800B55798FB3AC0292D9F02;1639.
 
 
-Package rerunfilecheck Warning: File `minutaDoRelatorio.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `minutaDoRelatorio.out':
-(rerunfilecheck)             Before: CD33873DDC3F5CB4606ED6F3C9D254F5;1258
-(rerunfilecheck)             After:  B7123F1CC87EBD61F9BD80B1A72508DC;1331.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 11759 strings out of 493117
- 167054 string characters out of 6135434
- 384002 words of memory out of 5000000
- 15003 multiletter control sequences out of 15000+600000
- 13644 words of font info for 49 fonts, out of 8000000 for 9000
+ 12517 strings out of 493117
+ 175903 string characters out of 6135434
+ 532347 words of memory out of 5000000
+ 15648 multiletter control sequences out of 15000+600000
+ 15871 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,34p,728b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,51p,1287b,2517s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on minutaDoRelatorio.pdf (32 pages, 438092 bytes).
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on minutaDoRelatorio.pdf (38 pages, 494810 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

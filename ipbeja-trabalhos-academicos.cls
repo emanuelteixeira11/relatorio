@@ -15,7 +15,8 @@ Changes:
 \RequirePackage[top=4cm, bottom=3cm, left=3.5cm, right=2.5cm]{geometry} 
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[portuges]{babel}
-
+\usepackage{dirtree}
+\usepackage{indentfirst}
 
 % graphics, symbols and hyperlink packages
 \RequirePackage{graphicx}

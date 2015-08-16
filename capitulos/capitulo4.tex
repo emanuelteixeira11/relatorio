@@ -1,0 +1,88 @@
+\chapter{Aprendizagem}
+\label{cap4}
+\par Neste capitulo serão apresentadas alguns exemplos realizados antes de iniciar o desenvolvimento do projecto, com o objectivo de adquirir alguns conhecimentos nas tecnologias a utilizar, visto que até à data de inicio do projecto a experiência era reduzida nas mesmas.
+
+\subsection{AngularJS e D3.js}
+\par Apesar de já ter uma reduzida experiência com a framework de javascript AngualrJs, não detinha qualquer experiência com a biblioteca de gráficos javascript D3.js. Por esse motivo foi necessário realizar na primeira fase, um pequeno projecto que me permitisse obter alguns conhecimentos acerca desta duas tecnologias, para mais tarde aplicar esses mesmos conhecimentos no projeto. 
+
+\begin{lstlisting}[language=html,caption={Primeiro exemplo em AngularJS e D3.js.},{label=example:angular}]
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/d3.js"></script>
+    <script src="/js/d3plus.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="/js/main_controller.js"></script>
+    <title>Angular JS Demo</title>
+</head>
+<body ng-app="start" ng-controller="mainController" class="text-center">
+    <h2 ng-bind="title"></h2>
+    <div class="col-lg-6 col-md-6">
+        <pie-chart id="viz" data="data" width="400" height="400"></pie-chart>
+    </div>
+    <div class="col-lg-6 col-md-6">
+        <div class="input-group" ng-repeat="data in data">
+            <span class="input-group-addon" id="sizing-addon2" ng-bind="data.name"></span>
+            <input type="number" class="form-control" placeholder="{{data.name}}" aria-describedby="sizing-addon2" ng-model="data.value">{{data.value}}
+        </div>
+    </div>
+</body>
+</html>
+\end{lstlisting}
+
+\begin{lstlisting}[language=html,caption={Primeiro exemplo em AngularJS e D3.js.},{label=example:angular}]
+(function () {
+    var app = angular.module('start', []);
+    home.directive('pieChart', function ($compile) {
+        return {
+            restrict: 'E',
+            scope: {
+                data: '=?',
+                width: '=?',
+                height: '=?',
+            },
+            compile: function (element, attributes) {
+                if (!attributes.height) {
+                    attributes.height = 200;
+                }
+                post: function postLink($scope, element /*, attributes*/ ) {
+                    $scope.$watch('data', function (newVals, oldVals) {
+                        updatePie($scope, element);
+                    }, true);
+                }
+                return postLink;
+            }
+        }
+    });
+
+    app.controller('mainController', ['$scope', function ($scope) {
+        $scope.title = "Primeiro exemplo D3.js/AngularJS";
+        $scope.data = [
+            {"value": 100, "name": "alpha"},
+            {"value": 70, "name": "beta"},
+            {"value": 40, "name": "gamma"},
+            {"value": 15, "name": "delta"},
+            {"value": 5, "name": "epsilon"},
+            {"value": 1, "name": "zeta"}
+        ];
+    }]);
+
+    function updatePie($scope, element) {
+        d3plus.viz()
+            .container("#" + element[0].id)
+            .data($scope.data)
+            .type("pie")
+            .id("name")
+            .size("value")
+            .width($scope.width)
+            .height($scope.height)
+            .draw()
+    }
+})();
+\end{lstlisting}
+
+
+\subsection{Primeira aplicação em \textit{QlikView}}
+\par No que respeita ao QlikView foi uma experiência completamente nova, pois até à data de inicio do projecto não tinha qualquer experiência, desconhecendo mesmo esta ferramenta de reporting. Como tal foi necessário despender algum tempo para investigação, e aprendizagem autónoma, de forma a conseguir desenvolver uma pequena aplicação de teste, que me serviu de ponto de partida. O contributo do cliente foi muito importante ao disponibilizar uma aplicação já existente, pois através da sua exploração consegui adquirir os conhecimentos básicos para avançar nesta tecnologia.
