@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.7)  16 AUG 2015 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.7)  17 AUG 2015 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,20 +829,20 @@ LaTeX Warning: Label `example:angular' multiply defined.
 )
 \openout1 = `minutaDoRelatorio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -907,7 +907,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -919,10 +919,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 10.
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 (./minutaDoRelatorio.out) (./minutaDoRelatorio.out)
 \@outlinefile=\write4
 \openout4 = `minutaDoRelatorio.out'.
@@ -933,14 +933,14 @@ LaTeX Info: Redefining \nameref on input line 10.
 File: logos/logo-ipbeja.pdf Graphic file (type pdf)
 
 <use logos/logo-ipbeja.pdf>
-Package pdftex.def Info: logos/logo-ipbeja.pdf used on input line 11.
+Package pdftex.def Info: logos/logo-ipbeja.pdf used on input line 12.
 (pdftex.def)             Requested size: 81.09052pt x 62.70447pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -949,31 +949,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: logos/logo-estig.pdf Graphic file (type pdf)
 
 <use logos/logo-estig.pdf>
-Package pdftex.def Info: logos/logo-estig.pdf used on input line 11.
+Package pdftex.def Info: logos/logo-estig.pdf used on input line 12.
 (pdftex.def)             Requested size: 81.09052pt x 57.32913pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 12.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
 /logo-ipbeja.pdf> <./logos/logo-estig.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 13.
 
 [2]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 13.
  [3]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 13.
  [4
 
 ] (./parte-inicial/resumo.tex
@@ -1030,19 +1030,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 24.
  [5]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 24.
  [6
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
  (./minutaDoRelatorio.toc
 Overfull \hbox (0.16266pt too wide) detected at line 8
  \OT1/cmr/bx/n/12 xiii
@@ -1057,62 +1057,62 @@ Package babel Info: Redefining portuges shorthand "|
 Class memoir Warning: The material used in the headers is too large
 (15.71669pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 24.
+(in both cases you will find help in the memoir manual). on input line 25.
 
 
 Overfull \vbox (1.21669pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
 
 [8]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
  (./minutaDoRelatorio.lof)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
  [9
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
  [10
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
  (./minutaDoRelatorio.lot)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
  [11]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
  [12
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 27.
 
 (./minutaDoRelatorio.lol)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 34.
  [13]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 34.
  [14
 
 ] (./capitulos/capitulo1-introducao.tex
@@ -1144,17 +1144,39 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 23.
-) (./capitulos/capitulo2.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 28.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.28   \item[Capítulo 2 - Enquadramento:]
+                                           Objetivos do projeto e do trabalh...
+[2]) (./capitulos/capitulo2.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.1 \chapter
-            {Enquadramento} [2]
+            {Enquadramento} [3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Enquadramento} [4
+
+]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -1165,18 +1187,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 11.
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 \section
-             {Planeamento} [3
-
-]
+ [5]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 11.
 
-<figuras/planeamento.png, id=271, 462.72874pt x 343.2825pt>
+<figuras/planeamento.png, id=285, 462.72874pt x 343.2825pt>
 File: figuras/planeamento.png Graphic file (type png)
 
 <use figuras/planeamento.png>
@@ -1187,12 +1202,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Âmbito} [4 <./figuras/planeamento.png>]
+ [6 <./figuras/planeamento.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
@@ -1201,7 +1211,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
- [5
+ [7
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1214,7 +1224,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 
-[6]
+[8]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
@@ -1227,7 +1237,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 51.
 
-[7]
+[9]
 Overfull \hbox (14.88898pt too wide) in paragraph at lines 53--54
 \OT1/cmr/m/n/12 as-sente no mo-delo de MVC. O An-gu-larJS per-mite o de-sen-vol
 -vi-mento de aplica^^Xc~oes
@@ -1241,16 +1251,16 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
-[8]
+[10]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 5.
+
+
+LaTeX Warning: Reference `example-angulaCtrl' on page 11 undefined on input lin
+e 7.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
@@ -1271,10 +1281,10 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 24.
- [9
+(babel)             in language  on input line 20.
+ [11
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -1284,70 +1294,106 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 62.
- [10]
+(babel)             in language  on input line 58.
+ [12]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+[13]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 130.
+ [14]
+<figuras/qlikview.png, id=414, 647.41875pt x 453.94594pt>
+File: figuras/qlikview.png Graphic file (type png)
+
+<use figuras/qlikview.png>
+Package pdftex.def Info: figuras/qlikview.png used on input line 135.
+(pdftex.def)             Requested size: 426.79134pt x 299.25198pt.
 )
 No file minutaDoRelatorio.bbl.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
-[11]
+(babel)             in language  on input line 49.
+[15 <./figuras/qlikview.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
- [12
+(babel)             in language  on input line 49.
+ [16
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
- [13]
+(babel)             in language  on input line 49.
+ [17]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
- [14] (./apendices/apendice1.tex
+(babel)             in language  on input line 49.
+ [18] (./apendices/apendice1.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 49.
- [15
+(babel)             in language  on input line 50.
+ [19
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 
-[16]
+[20]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
- [17
+(babel)             in language  on input line 54.
+ [21
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
- [18] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same iden
+(babel)             in language  on input line 54.
+ [22] (./anexos/anexo1.texpdfTeX warning (ext4): destination with the same iden
 tifier (name{appendix.A}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1359,23 +1405,23 @@ Package babel Info: Redefining portuges shorthand "|
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
- [19
+(babel)             in language  on input line 55.
+ [23
 
 ]
 
 Class memoir Warning: The material used in the headers is too large
 (15.71669pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 58.
+(in both cases you will find help in the memoir manual). on input line 59.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
-[20]
+(babel)             in language  on input line 59.
+[24]
 \tf@toc=\write5
 \openout5 = `minutaDoRelatorio.toc'.
 
@@ -1388,27 +1434,30 @@ Package babel Info: Redefining portuges shorthand "|
 \tf@lol=\write8
 \openout8 = `minutaDoRelatorio.lol'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./minutaDoRelatorio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `minutaDoRelatorio.out' has not changed.
-(rerunfilecheck)             Checksum: 471AE7434800B55798FB3AC0292D9F02;1639.
+(rerunfilecheck)             Checksum: CE38D94B881CC3EFF087BA83C58A29C3;1618.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 12517 strings out of 493117
- 175903 string characters out of 6135434
- 532347 words of memory out of 5000000
- 15648 multiletter control sequences out of 15000+600000
- 15871 words of font info for 59 fonts, out of 8000000 for 9000
+ 12759 strings out of 493117
+ 178942 string characters out of 6135434
+ 542089 words of memory out of 5000000
+ 15870 multiletter control sequences out of 15000+600000
+ 15343 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,51p,1287b,2517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,51p,1287b,2519s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -1418,12 +1467,11 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on minutaDoRelatorio.pdf (38 pages, 494810 bytes).
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on minutaDoRelatorio.pdf (42 pages, 519729 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 137 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 

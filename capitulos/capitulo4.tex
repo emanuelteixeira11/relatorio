@@ -2,10 +2,10 @@
 \label{cap4}
 \par Neste capitulo serão apresentadas alguns exemplos realizados antes de iniciar o desenvolvimento do projecto, com o objectivo de adquirir alguns conhecimentos nas tecnologias a utilizar, visto que até à data de inicio do projecto a experiência era reduzida nas mesmas.
 
-\subsection{AngularJS e D3.js}
-\par Apesar de já ter uma reduzida experiência com a framework de javascript AngualrJs, não detinha qualquer experiência com a biblioteca de gráficos javascript D3.js. Por esse motivo foi necessário realizar na primeira fase, um pequeno projecto que me permitisse obter alguns conhecimentos acerca desta duas tecnologias, para mais tarde aplicar esses mesmos conhecimentos no projeto. 
-
-\begin{lstlisting}[language=html,caption={Primeiro exemplo em AngularJS e D3.js.},{label=example:angular}]
+\section{AngularJS e D3.js}
+\par Apesar de já ter uma reduzida experiência com a framework de javascript AngualrJS, não detinha qualquer experiência com a biblioteca de gráficos javascript D3.js. Por esse motivo foi necessário realizar na primeira fase, um pequeno projecto que me permitisse obter alguns conhecimentos acerca desta duas tecnologias, para mais tarde aplicar esses mesmos conhecimentos no desenvolvimento do projeto. \newline
+A Listagem \ref{example:angular} apresenta o código desenvolvido para o exemplo. Para a apresentação do gráfico na página decidi criar uma diretiva, recurso da \textit{framework} \textit{AngularJS}, que muito sucintamente se comporta como se fosse um \textit{template}, que é alimentado por parâmetros, como podemos visualizar na Listagem \ref{example-angulaCtrl}.
+\begin{lstlisting}[language=html,caption={Código fonte da primeira página em AngularJS},{label=example:angular}]
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +32,7 @@
 </html>
 \end{lstlisting}
 
-\begin{lstlisting}[language=html,caption={Primeiro exemplo em AngularJS e D3.js.},{label=example:angular}]
+\begin{lstlisting}[language=html,caption={Directiva e Controller AngularJS},{label=example:angulaCtrl}]
 (function () {
     var app = angular.module('start', []);
     home.directive('pieChart', function ($compile) {
@@ -84,5 +84,55 @@
 \end{lstlisting}
 
 
-\subsection{Primeira aplicação em \textit{QlikView}}
-\par No que respeita ao QlikView foi uma experiência completamente nova, pois até à data de inicio do projecto não tinha qualquer experiência, desconhecendo mesmo esta ferramenta de reporting. Como tal foi necessário despender algum tempo para investigação, e aprendizagem autónoma, de forma a conseguir desenvolver uma pequena aplicação de teste, que me serviu de ponto de partida. O contributo do cliente foi muito importante ao disponibilizar uma aplicação já existente, pois através da sua exploração consegui adquirir os conhecimentos básicos para avançar nesta tecnologia.
+\section{Primeira aplicação em \textit{QlikView}}
+\par No que respeita ao \textit{QlikView} foi uma experiência completamente nova, pois até à data de inicio do projecto não tinha qualquer experiência, desconhecendo mesmo esta ferramenta de \textit{reporting}. Como tal foi necessário despender algum tempo para investigação, e aprendizagem autónoma, de forma a conseguir desenvolver uma pequena aplicação de teste, que me serviu de ponto de partida. O contributo do cliente foi muito importante ao disponibilizar uma aplicação já existente, pois através da sua exploração consegui adquirir os conhecimentos básicos para avançar nesta tecnologia.\newline
+\par Para um primeiro exemplo, utilizei como fonte de dados um documento em formato \textit{.xlsx}, com uma listagem de equipamentos, em que o objectivo final era visualizar a distribuiçao desses equipamentos face ao numero de incidentes ocorridos para os mesmos, chegando ao detalhe da hora que ocorreu. O objectivo final desta primeira aplicação seria através de um \textit{dashboard} visualizar a informação inicialmente presente no ficheiro de origem,Tabela \ref{tbl:dadosQlik}, e através dos filtros de seleção de modo a poder visualizar a informação mais detalhadamente. A Listagem \ref{lst:qlikview} apresenta o carregamento dos dados para a aplicação, através da linguagem própria do \textit{QlikView}, um mistro entre \textit{T-SQL} e \textit{Visual-Basic}.\newline
+
+\begin{table}[]
+\centering
+\begin{tabular}{llll}
+Aparelho & Data & Hora & Flag \\
+\hline
+CT-211 & 12-01-2014 & 18:00:00 & 1 \\
+CT-211 & 24-01-2014 & 18:00:00 & 1 \\
+CT-211 & 24-12-2014 & 18:00:00 & 1 \\
+CT-423 & 12-01-2015 & 19:00:00 & 0 \\
+CT-211 & 23-01-2015 & 20:00:00 & 1 \\
+CT-211 & 07-02-2015 & 21:00:00 & 1 \\
+CT-423 & 15-03-2015 & 22:00:00 & 1 \\
+CT-211 & 15-03-2015 & 23:00:00 & 1 \\
+CT-211 & 12-05-2015 & 00:00:00 & 0 \\
+CT-230 & 18-05-2015 & 01:00:00 & 0 \\
+CT-211 & 19-06-2015 & 02:00:00 & 1 \\
+CT-423 & 20-06-2015 & 03:00:00 & 1 \\
+CT-211 & 13-08-2015 & 04:00:00 & 1 \\
+CT-423 & 15-09-2015 & 05:00:00 & 0 \\
+CT-230 & 10-10-2015 & 06:00:00 & 1 \\
+CT-736 & 24-12-2015 & 18:00:00 & 1 \\
+CT-423 & 25-12-2015 & 05:00:00 & 1 \\
+CT-211 & 14-02-2015 & 05:03:20 & 1 \\
+CT-211 & 14-02-2015 & 05:03:20 & 1
+\end{tabular}
+\caption{Dados utilizados na aplicação}
+\label{tbl:dadosQlik}
+\end{table}
+
+\begin{lstlisting}[language=sql,caption={\textit{Load} de dados para a aplicação \textit{QlikView}},{label=lst:qlikview}]
+LOAD Aparelho,
+ Year(Data) AS [Ano],
+    Month(Data) AS [Mês],
+    Hour(Hora) AS [Hora],
+    Date(Data)As [Data],
+    Flag AS [Incidente]
+FROM
+[C:\Users\emteixeira\Documents\Horas.xlsx]
+(ooxml, embedded labels, table is Sheet1);
+\end{lstlisting}
+
+\par O resultado é um conjunto de gráficos, onde é possivel navegar pelos dados, através dos filtros de seleção ou mesmo por seleção dos gráficos. O \textit{QlikView} uma aplicação bastante complexa, onde é possivel atingir resultados bastante dinâmicos, como podemos observar na Figura \ref{fig:qlikViewFig}. No exemplo apresentado a complexidade não é muito elevada visto que a experiência com esta ferramenta era nula.
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=15cm]{qlikview}
+\caption{Primeira aplicação em \textit{QlikView}}
+\label{fig:qlikViewFig}
+\end{figure}
